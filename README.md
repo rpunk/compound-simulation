@@ -13,9 +13,12 @@ ganache-cli -f https://eth-mainnet.alchemyapi.io/v2/{alchemyapikey}@12269785 -b 
 1. run `node simulation-script.js init` to initialize the proposal
 2. You can check the proposal by run `node simulation-script.js getProposal`
 3. wait serveral minutes and run `node simulation-script.js castVote`
-You have to wait serveral minutes to reach specific block height to vote for the proposal
+
+   Make sure to reach specific block height to vote for the proposal
+
 4. wait serveral minutes and run `node simulation-script.js queue`
-You have to wait serveral minutes to reach specific block height to queue the proposal
+
+   Make sure to reach specific block height to queue the proposal
 5. run `node simulation-script.js increaseTime` to skip two days.
 6. run `node simulation-script.js execute` to execute the proposal
 
