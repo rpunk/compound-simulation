@@ -1,0 +1,21 @@
+{
+  "name": "compound-simulation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "commander": "^7.2.0",
+    "ethereumjs-tx": "^2.1.2",
+    "ethers": "^5.0.32",
+    "ganache-cli": "6.12.2",
+    "request-promise": "^4.2.6",
+    "web3": "^1.3.4",
+    "big-integer":"^1.6.48"
+  }
+}
